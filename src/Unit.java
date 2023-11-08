@@ -51,10 +51,12 @@ public class Unit {
         this.parryChance = parryChance;
     }
     protected void getDamage(int damage) {
-        this.health -= damage;
+        if (this.defence < damage && CustomChanceRandom.getParry(this)) {
+            this.health -= damage;
+        }
     }
     protected void attack(Unit unit) {
-        unit.getDamage(power);
+        unit.getDamage(power + CustomChanceRandom.getCrit(this));
     }
 
     @Override

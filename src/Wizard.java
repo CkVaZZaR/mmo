@@ -11,7 +11,7 @@ public class Wizard extends Unit {
 
     @Override
     protected void attack(Unit unit) {
-        if (mana > 0)
+        if (mana > 10)
             super.attack(unit);
         mana -= 10;
     }
@@ -25,6 +25,7 @@ public class Wizard extends Unit {
                 ", defence=" + defence +
                 ", critChance=" + critChance +
                 ", parryChance=" + parryChance +
+                ", name='" + name + '\'' +
                 '}';
     }
 }
