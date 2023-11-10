@@ -5,6 +5,8 @@ public class Wizard extends Unit {
         power = 30;
         health = 80;
         defence = 0;
+        critChance = 0.5f;
+        parryChance = 0.3f;
     }
 
     protected int mana = 100;
@@ -18,14 +20,10 @@ public class Wizard extends Unit {
 
     @Override
     public String toString() {
-        return "Wizard{" +
-                "mana=" + mana +
-                ", health=" + health +
-                ", power=" + power +
-                ", defence=" + defence +
-                ", critChance=" + critChance +
-                ", parryChance=" + parryChance +
-                ", name='" + name + '\'' +
-                '}';
+        return "Wizard (W)" +
+                "\nmana: " + mana +
+                "\nhealth: " + health +
+                "\npower: " + power +
+                "\ndefence: " + defence + "\n";
     }
 }

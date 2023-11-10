@@ -9,7 +9,6 @@ public class Player {
     public Player(String name) {
         this.name = name;
     }
-
     public void addUnit(int x, String name) {
         if (x == 0) {
             units[massiveIndex] = new Wizard(name);
@@ -22,12 +21,16 @@ public class Player {
             ++massiveIndex;
         }
     }
+    public void deleteUnit(int index) {
+        units[index] = new EmptyUnit("None");
+    }
+    public String getName() {
+        return name;
+    }
 
     @Override
     public String toString() {
-        return "Player{" +
-                "name='" + name + '\'' +
-                ", units=" + Arrays.toString(units) +
-                '}';
+        return "\nPlayer name: " + name +
+                "\nunits:" + "\n1) " + units[0] + "\n2) " + units[1] + "\n3) " + units[2] + "\n";
     }
 }

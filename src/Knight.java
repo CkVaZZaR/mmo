@@ -5,18 +5,16 @@ public class Knight extends Unit {
         power = 10;
         health = 150;
         defence = 5;
+        critChance = 0.2f;
+        parryChance = 0.4f;
     }
 
     @Override
     public String toString() {
-        return "Knight{" +
-                "health=" + health +
-                ", power=" + power +
-                ", defence=" + defence +
-                ", critChance=" + critChance +
-                ", parryChance=" + parryChance +
-                ", name='" + name + '\'' +
-                '}';
+        return "Knight (K)" +
+                "\nhealth: " + health +
+                "\npower: " + power +
+                "\ndefence: " + defence + "\n";
     }
 }
 

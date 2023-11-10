@@ -4,19 +4,15 @@ public class Terminator extends Unit {
         power = 10;
         health = 100;
         defence = 15;
-        critChance = 0.3f;
+        critChance = 0.5f;
         parryChance = 0;
     }
 
     @Override
     public String toString() {
-        return "Terminator{" +
-                "health=" + health +
-                ", power=" + power +
-                ", defence=" + defence +
-                ", critChance=" + critChance +
-                ", parryChance=" + parryChance +
-                ", name='" + name + '\'' +
-                '}';
+        return "Terminator (T)" +
+                "\nhealth: " + health +
+                "\npower: " + power +
+                "\ndefence: " + defence + "\n";
     }
 }

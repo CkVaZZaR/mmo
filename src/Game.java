@@ -12,7 +12,6 @@ public class Game {
         players[massiveIndex] = new Player(name);
         ++massiveIndex;
     }
-
     public Game(String name) {
         this.name = name;
     }

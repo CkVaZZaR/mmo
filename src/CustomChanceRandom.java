@@ -15,6 +15,9 @@ public class CustomChanceRandom {
     public static boolean getParry(Unit unit) {
         Random random = new Random();
         float parry = unit.getParryChance();
+        if (parry == 0) {
+            return false;
+        }
         while (parry - (int) parry != 0) {
             parry *= 10;
         }
