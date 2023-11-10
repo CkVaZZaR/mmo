@@ -15,4 +15,9 @@ public class Game {
     public Game(String name) {
         this.name = name;
     }
+    public static void start(String name) {
+        Game game = new Game(name);
+        UtilStringForPrint.beginning(game);
+        UtilStringForPrint.ending(UtilStringForPrint.battle(game));
+    }
 }

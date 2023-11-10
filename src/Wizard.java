@@ -17,6 +17,9 @@ public class Wizard extends Unit {
             super.attack(unit);
         mana -= 10;
     }
+    public String getChar() {
+        return "W";
+    }
 
     @Override
     public String toString() {

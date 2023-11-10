@@ -9,9 +9,29 @@ public class Scenary {
             "Выберите режим игры: Auto, Half-Auto, Manual (A(1), HA(2), M(3))\n", "stcfg"
     };
     public static String[] battle = {
-            "Ходит ", "soutnm1", ". ", "wari1", ". Основ Характ ", "war1", ":\n",
+            "Ходит ", "phod", ".", "minwarr", ". Основ Характ ", "mainwarr", ".\n",
             "Выберите противника, которого хотите атаковать:\n",
-            "showp2war",
-            "hitout",
+            "showprotwarr",
+            "hit",
+            "showprotwarr"
+    };
+    public static String[] round = {
+            "Раунд ", "soutroundnum", "."
+    };
+    public static String[] hit = {
+            "Удар!", "Удар нанесен!", "Атака!", "Нанесена атака!", "Враг атакован!"
+    };
+    public static String[] critical = {
+            "Крит!", "Критический удар!"
+    };
+    public static String[] no_damage = {
+            "Урон не прошел!", "Броня противника слишком крепка, удар не нанес урона!"
+    };
+    public static String[] parry = {
+            "Удар отражен!", "Успешное паррирование!", "Удар отбит!"
+    };
+    public static String[] ending = {
+            "Поздравляем ", "pname", " с победой!\n",
+            "Всего доброго, путники! Это приключение было увлекательным!\n"
     };
 }

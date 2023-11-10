@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56908192-9051-4a71-821e-4861faa13005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EmptyUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CustomChanceRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomChanceRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmptyUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmptyUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Scenary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Terminator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terminator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UtilStringForPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UtilStringForPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wizard.java" afterDir="false" />
     </list>

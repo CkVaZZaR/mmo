@@ -50,13 +50,17 @@ public class Unit {
     public void setParryChance(float parryChance) {
         this.parryChance = parryChance;
     }
+    public String getChar() {
+        return "";
+    }
+    public String getName() {
+        return name;
+    }
     protected void getDamage(int damage) {
-        if (this.defence < damage && CustomChanceRandom.getParry(this)) {
-            this.health -= damage;
-        }
+        this.health -= damage;
     }
     protected void attack(Unit unit) {
-        unit.getDamage(power + CustomChanceRandom.getCrit(this));
+        unit.getDamage(power);
     }
 
     @Override

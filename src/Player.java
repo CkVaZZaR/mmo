@@ -24,6 +24,15 @@ public class Player {
     public void deleteUnit(int index) {
         units[index] = new EmptyUnit("None");
     }
+    public String getUnit(int x) {
+        return units[x].getChar();
+    }
+    public String getUnitName(int x) {
+        return units[x].getName();
+    }
+    public Unit unit(int x) {
+        return units[x];
+    }
     public String getName() {
         return name;
     }

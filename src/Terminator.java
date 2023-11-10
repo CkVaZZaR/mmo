@@ -7,6 +7,9 @@ public class Terminator extends Unit {
         critChance = 0.5f;
         parryChance = 0;
     }
+    public String getChar() {
+        return "T";
+    }
 
     @Override
     public String toString() {

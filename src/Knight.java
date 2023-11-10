@@ -8,6 +8,9 @@ public class Knight extends Unit {
         critChance = 0.2f;
         parryChance = 0.4f;
     }
+    public String getChar() {
+        return "K";
+    }
 
     @Override
     public String toString() {
